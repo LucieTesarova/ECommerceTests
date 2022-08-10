@@ -25,7 +25,6 @@ Steps to reproduce:
  */
 public class TestCase01 {
     private WebDriver driver;
-    private StringBuffer verificationErrors = new StringBuffer();
 
     @BeforeClass
     public static void setUp() {
@@ -40,7 +39,7 @@ public class TestCase01 {
     }
 
     @After
-    public void tearDown() throws Exception {
+    public void tearDown() {
         driver.quit();
     }
 
