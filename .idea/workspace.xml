@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5d4416c-1317-4b20-916e-7b00991029e5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestCase02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestCase03.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestCase01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCase01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Util.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +54,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestCase02">
+  <component name="RunManager" selected="JUnit.TestCase03">
     <configuration name="TestCase01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ECommerceTests" />
       <option name="PACKAGE_NAME" value="" />
@@ -82,8 +82,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestCase03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ECommerceTests" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestCase03" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestCase03" />
         <item itemvalue="JUnit.TestCase02" />
         <item itemvalue="JUnit.TestCase01" />
         <item itemvalue="JUnit.TestCase01Test" />
