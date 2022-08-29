@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5d4416c-1317-4b20-916e-7b00991029e5" name="Changes" comment="create test case 4">
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestCase05.java" afterDir="false" />
+    <list default="true" id="c5d4416c-1317-4b20-916e-7b00991029e5" name="Changes" comment="create test case 5">
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestCase06.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCase05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCase05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Util.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,16 +55,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestCase05">
-    <configuration name="TestCase01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ECommerceTests" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestCase01" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestCase06">
     <configuration name="TestCase02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ECommerceTests" />
       <option name="PACKAGE_NAME" value="" />
@@ -99,13 +92,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestCase06" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ECommerceTests" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestCase06" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestCase06" />
         <item itemvalue="JUnit.TestCase05" />
         <item itemvalue="JUnit.TestCase04" />
         <item itemvalue="JUnit.TestCase03" />
         <item itemvalue="JUnit.TestCase02" />
-        <item itemvalue="JUnit.TestCase01" />
       </list>
     </recent_temporary>
   </component>
@@ -132,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661693742173</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="create test case 5">
+      <created>1661700199515</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661700199515</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -149,7 +158,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create test case 3" />
     <MESSAGE value="create test case 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="create test case 4" />
+    <MESSAGE value="create test case 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="create test case 5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

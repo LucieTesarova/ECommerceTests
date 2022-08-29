@@ -3,13 +3,9 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.ElementClickInterceptedException;
-import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-import java.sql.DriverPropertyInfo;
 import java.time.Duration;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -82,10 +78,9 @@ public class TestCase05 {
         //click "Share wishlist"
         driver.findElement(By.xpath("//*[@id=\"wishlist-view-form\"]/div/div/button[1]/span/span")).click();
         // Add email address and message that you want to share
-        String email = "lucka1212@atlas.cz";
         String message = "I want this TV";
         driver.findElement(By.id("email_address")).clear();
-        driver.findElement(By.id("email_address")).sendKeys(email);
+        driver.findElement(By.id("email_address")).sendKeys(Util.EMAIL);
         driver.findElement(By.id("message")).clear();
         driver.findElement(By.id("message")).sendKeys(message);
         driver.findElement(By.xpath("//*[@id=\"form-validate\"]/div[2]/button/span/span")).click();
