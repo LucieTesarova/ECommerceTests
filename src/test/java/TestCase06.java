@@ -6,7 +6,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
-import java.time.Duration;
 
 import static org.junit.Assert.assertEquals;
 
@@ -42,7 +41,6 @@ public class TestCase06 {
     public void init() {
         driver = new ChromeDriver();
         driver.get(Util.URL);
-        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
     }
 
     @After

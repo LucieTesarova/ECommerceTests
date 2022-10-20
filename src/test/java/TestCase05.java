@@ -6,8 +6,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-import java.time.Duration;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 /*
@@ -37,7 +35,6 @@ public class TestCase05 {
     public void init() {
         driver = new FirefoxDriver();
         driver.get(Util.URL);
-        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
     }
 
     @After

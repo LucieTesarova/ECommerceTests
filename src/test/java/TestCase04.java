@@ -32,7 +32,6 @@ public class TestCase04 {
     public void init() {
         driver = new FirefoxDriver();
         driver.get(Util.URL);
-        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
     }
 
     @After

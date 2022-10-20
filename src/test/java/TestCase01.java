@@ -5,7 +5,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 
-import java.time.Duration;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -35,7 +34,6 @@ public class TestCase01 {
     public void init() {
         driver = new FirefoxDriver();
         driver.get(Util.URL);
-        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(5));
     }
 
     @After
